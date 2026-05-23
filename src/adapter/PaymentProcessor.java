@@ -1,4 +1,5 @@
 package adapter;
 
-public class PaymentProcessor {
+public interface PaymentProcessor {
+    void pay(double amount);
 }
