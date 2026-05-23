@@ -56,8 +56,8 @@ public class Cart {
         for (Product product : products) {
             System.out.println("  " + product);
         }
-        System.out.println("Subtotal: S/ " + subtotal);
-        System.out.println("Descuento aplicado: -S/ " + discount);
-        System.out.println("Total: S/ " + total);
+        System.out.println("Subtotal: S/ " + String.format("%.2f", subtotal));
+        System.out.println("Descuento aplicado: -S/ " + String.format("%.2f",discount));
+        System.out.println("Total: S/ " + String.format("%.2f",total));
     }
 }

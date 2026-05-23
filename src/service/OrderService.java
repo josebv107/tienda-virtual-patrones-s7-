@@ -35,7 +35,7 @@ public class OrderService {
         System.out.println("\n--- Confirmando pedido ---");
         paymentProcessor.pay(total);
 
-        String message = "Compra confirmada por S/ " + total;
+        String message = "Compra confirmada por S/ " + String.format("%.2f",+ total);
         System.out.println(message);
 
         notifyObservers(message);
