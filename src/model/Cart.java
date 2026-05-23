@@ -48,11 +48,16 @@ public class Cart {
     }
 
     public void showCart() {
+        double subtotal = calculateSubtotal();
+        double total = calculateTotal();
+        double discount = subtotal - total;
+
         System.out.println("****** CARRITO DE COMPRAS ******");
         for (Product product : products) {
             System.out.println("  " + product);
         }
-        System.out.println("Subtotal: S/ " + calculateSubtotal());
-        System.out.println("Total: S/ " + calculateTotal());
+        System.out.println("Subtotal: S/ " + subtotal);
+        System.out.println("Descuento aplicado: -S/ " + discount);
+        System.out.println("Total: S/ " + total);
     }
 }
