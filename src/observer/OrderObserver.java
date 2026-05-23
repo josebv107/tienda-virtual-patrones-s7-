@@ -1,4 +1,5 @@
 package observer;
 
-public class OrderObserver {
+public interface OrderObserver {
+    void update(String message);
 }
