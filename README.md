@@ -52,6 +52,8 @@ Lo que aprendí es que el patrón Observer es ideal cuando un evento en un objet
 debe desencadenar acciones en otros objetos sin que estén acoplados entre sí.
 
 ## Estructura del proyecto
+<img width="330" height="559" alt="image" src="https://github.com/user-attachments/assets/14a0303d-7646-47e5-980b-1a38d6390fdd" />
 
 ## Salida en consola
+<img width="811" height="494" alt="image" src="https://github.com/user-attachments/assets/a004c32d-c3f2-440c-859e-3ca62a72c3e5" />
 
